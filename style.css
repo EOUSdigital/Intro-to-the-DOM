@@ -1,0 +1,60 @@
+/* 🟦 Module 07 - DOM Manipulation - Lesson 02: Intro to the DOM
+
+/* DOM Step 4 */
+.menu { display: flex; gap: 1rem; list-style: none; padding: 0; }
+
+.menu-item { 
+    padding: 0.25rem 0.5rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.card {
+    border: 0.063rem solid #ccc;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+/* Visual cues for the micro-exercise */
+
+.neighbor {
+    outline: 0.125rem dashed orange;
+}
+
+.edge-first {
+    outline: 0.125rem solid green;
+}
+
+.edge-last {
+    outline: 0.125rem solid red;
+}
+
+.between {
+    background: rgba(255, 200, 0, 0.15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
